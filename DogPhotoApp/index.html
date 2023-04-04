@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DogPhotoApp</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <h1>DogphotoApp</h1>
+
+            <section id="fotoscachorro">
+                <h2>Dog Photos</h2>
+
+            <img class="fotos" src="/img/f1.jpg" alt="um cachorro deitado">
+            <img class="fotos" src="/img/f2.jpg" alt="cachorro">
+            <img class="fotos" src="/img/f3.jpg" alt="cachorro">
+            <img class="fotos" src="/img/f4.jpg" alt="cachorro">
+            </section>
+            <section id="fatos">
+                <h3>Fatos sobre cachorros</h3>
+
+                <h3>Raças de cachorro</h3>
+                <p>A baixo algumas raças de cachorro:</p>
+                <ul>
+                    <li>Dogue alemão</li>
+                    <li>Fila brasileiro</li>
+                    <li>Golden retiever</li>
+                    <li>Husky siberiano</li>
+                    <li>Vira-lata</li>
+                </ul>
+
+                <h3>Curiosidades</h3>
+                <ol>
+                    <li>Um cachorro adulto tem 42 dentes;</li>
+                    <li>O olfato canino é 1 milhão de vezes melhor do que o dos humanos;</li>
+                    <li>A audição canina é 10 vezes melhor do que a dos humanos;</li>
+                    <li>Em média, um cachorro pode correr 30km/h;</li>
+                    <li>O nariz de cada cachorro é único, assim como nossa impressão digital.</li>
+                </ol>
+
+            </section>
+            <h2>Formulario</h2>
+            <section id="formulario">
+                <form action="">
+                    <fieldset>
+                        <legend>Qual é a personalidade do seu dog?</legend>
+                        <label for="loving"><input type="checkbox" id="loving" value="loving" name="personality"> Amoroso</label>
+
+                        <label for="lazy"><input type="checkbox" id="lazy" value="lazy" name="personality" checked> Preguiçoso</label>
+
+                        <label for="energetic"><input type="checkbox" id="energetic" value="energetic" name="personality"> Energético</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>O seu dog late muito ou pouco?</legend>
+                        <label for="muito"><input type="radio" id="muito" value="muito" name="muito-pouco" checked> Muito</label>
+                        <label for="pouco"><input type="radio" id="pouco" value="pouco" name="muito-pouco"> Pouco</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Qual é a raça do seu dog?</legend>
+                        <input type="text" name="racadodog" placeholder="Escreva aqui" required>
+                        <button type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </section>
+        
+        </main>
+        
+    </body>
+</html>
